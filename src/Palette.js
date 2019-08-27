@@ -14,7 +14,6 @@ class Palette extends Component {
     this.setState({level})
   }
   changeFormat(val){
-    
     this.setState({format: val});
     console.log('spaos: ' + this.state.format);
   }
@@ -22,7 +21,7 @@ class Palette extends Component {
     const {colors} = this.props.palette;
     const {level, format} = this.state;
     const colorBoxes = colors[level].map(color => (
-      <ColorBox key={color.hex} background={color[format]} name={color.name} />
+      <ColorBox key={color.hex} background={color[format]} name={color.name} format={format} />
     ));
     return (
       <div className="Palette">
