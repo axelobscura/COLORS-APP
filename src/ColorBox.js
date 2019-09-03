@@ -56,6 +56,17 @@ const styles = {
     border:"none",
     textDecoration: "none",
     opacity: 0
+  },
+  boxcontent: {
+    position: "absolute",
+    width: "100%",
+    left: "0px",
+    bottom: "0px",
+    padding: "10px",
+    color: "black",
+    letterSpacing: "1px",
+    textTransform: "uppercase",
+    fontSize: "12px",
   }
 }
 
@@ -80,7 +91,7 @@ class ColorBox extends Component {
         <div style={{background}} className={classes.ColorBox}>
           <div 
             style={{background}} 
-            className={`copy-overlay ${copied && "show"}`} 
+            className={`${classes.copyOverlay} ${copied && "show"}`} 
           />
           <div className={`copy-msg ${copied && "show"}`} >
             <h1>Copied!!!</h1>
@@ -88,7 +99,7 @@ class ColorBox extends Component {
               {this.props.background}
             </p>
           </div>
-          <div className="copy-container">
+          <div>
             <div className="box-content">
               <span className={classes.colorName}>{name}</span>
             </div>
