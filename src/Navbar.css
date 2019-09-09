@@ -3,29 +3,29 @@
   align-items: center;
   justify-content: flex-start;
   height: 6vh;
-  background: #555555;
 }
 .logo {
   margin-right: 15px;
-  padding: 15px 13px;
+  padding: 0 13px;
   font-size: 22px;
-  background-color: #333333;
+  background-color: #eceff1;
   font-family: Roboto;
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
-  color:#ffffff;
 }
+
 .logo a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
-.rc-slider {
-  width: 340px !important;
+
+.slider {
+  width: 340px;
   margin: 0 10px;
   display: inline-block;
 }
+
 .rc-slider-track {
   background-color: transparent;
 }
@@ -34,8 +34,8 @@
 }
 .rc-slider-handle,
 .rc-slider-handle:active,
-.rc-slider-handle:hover,
-.rc-slider-handle:focus {
+.rc-slider-handle:focus,
+.rc-slider-handle:hover {
   background-color: green;
   outline: none;
   border: 2px solid green;
@@ -43,8 +43,9 @@
   width: 13px;
   height: 13px;
   margin-left: -7px;
-  margin-top: -2px;
+  margin-top: -3px;
 }
+
 .select-container {
   margin-left: auto;
   margin-right: 1rem;
