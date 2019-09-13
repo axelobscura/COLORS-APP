@@ -108,6 +108,11 @@ class NewPaletteForm extends Component {
         ({color}) => color !== this.state.currentColor
       )
     );
+    ValidatorForm.addValidationRule('isPaletteNameUnique', value => 
+      this.props.palettes.every(
+        ({paletteName}) => paletteName.toLowerCase() !== value.toLowerCase()
+      )
+    );
   }
 
   handleDrawerOpen = () => {
@@ -180,6 +185,8 @@ class NewPaletteForm extends Component {
                 value={this.state.newPaletteName}
                 name='newPaletteName'
                 onChange={this.handleChange}
+                validators={["required", "isPaletteNameUnique"]}
+                errorMessage={["Enter Palette Name", "Name already used!"]}
               />
               <Button 
                 variant='contained' 
