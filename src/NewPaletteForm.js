@@ -131,8 +131,10 @@ class NewPaletteForm extends Component {
   }
 
   handleSubmit(){
+    let newName = 'New Test palette';
     const newPalette = {
-      paletteName: 'New Test palette',
+      paletteName: newName,
+      id: newName.toLowerCase().replace(/ /g, '-'),
       colors: this.state.colors
     }
     this.props.savePalette(newPalette);
