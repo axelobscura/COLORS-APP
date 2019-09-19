@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from "@material-ui/core/styles";
+import { classes } from 'istanbul-lib-coverage';
 
 const styles = {
   root: {
@@ -19,7 +20,9 @@ function DraggableColorBox(props){
       className={props.classes.root}
       style={{backgroundColor: props.color}}
     >
-      {props.name}
+      <div className={classes.boxContent}>
+        {props.name}
+      </div>
     </div>
   )
 }
