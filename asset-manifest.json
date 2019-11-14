@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/colors-app/static/css/main.c2541e80.chunk.css",
-    "main.js": "/colors-app/static/js/main.9f90d983.chunk.js",
-    "main.js.map": "/colors-app/static/js/main.9f90d983.chunk.js.map",
-    "runtime~main.js": "/colors-app/static/js/runtime~main.6d8e0e50.js",
-    "runtime~main.js.map": "/colors-app/static/js/runtime~main.6d8e0e50.js.map",
-    "static/css/2.509658c0.chunk.css": "/colors-app/static/css/2.509658c0.chunk.css",
-    "static/js/2.0095f0e4.chunk.js": "/colors-app/static/js/2.0095f0e4.chunk.js",
-    "static/js/2.0095f0e4.chunk.js.map": "/colors-app/static/js/2.0095f0e4.chunk.js.map",
-    "index.html": "/colors-app/index.html",
-    "precache-manifest.0c4b924a45e8a4d58e68ce7624c912d4.js": "/colors-app/precache-manifest.0c4b924a45e8a4d58e68ce7624c912d4.js",
-    "service-worker.js": "/colors-app/service-worker.js",
-    "static/css/2.509658c0.chunk.css.map": "/colors-app/static/css/2.509658c0.chunk.css.map",
-    "static/css/main.c2541e80.chunk.css.map": "/colors-app/static/css/main.c2541e80.chunk.css.map"
+    "main.css": "/COLORS-APP/static/css/main.c2541e80.chunk.css",
+    "main.js": "/COLORS-APP/static/js/main.cae37b63.chunk.js",
+    "main.js.map": "/COLORS-APP/static/js/main.cae37b63.chunk.js.map",
+    "runtime~main.js": "/COLORS-APP/static/js/runtime~main.dbfb9076.js",
+    "runtime~main.js.map": "/COLORS-APP/static/js/runtime~main.dbfb9076.js.map",
+    "static/css/2.509658c0.chunk.css": "/COLORS-APP/static/css/2.509658c0.chunk.css",
+    "static/js/2.0095f0e4.chunk.js": "/COLORS-APP/static/js/2.0095f0e4.chunk.js",
+    "static/js/2.0095f0e4.chunk.js.map": "/COLORS-APP/static/js/2.0095f0e4.chunk.js.map",
+    "index.html": "/COLORS-APP/index.html",
+    "precache-manifest.cdfac7f008d766cce1a8969b82a20f97.js": "/COLORS-APP/precache-manifest.cdfac7f008d766cce1a8969b82a20f97.js",
+    "service-worker.js": "/COLORS-APP/service-worker.js",
+    "static/css/2.509658c0.chunk.css.map": "/COLORS-APP/static/css/2.509658c0.chunk.css.map",
+    "static/css/main.c2541e80.chunk.css.map": "/COLORS-APP/static/css/main.c2541e80.chunk.css.map"
   }
 }
