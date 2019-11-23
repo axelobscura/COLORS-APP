@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Palette from "./Palette";
 import PaletteList from "./PaletteList";
 import SingleColorPalette from "./SingleColorPalette";
@@ -14,11 +14,18 @@ class App extends Component {
     this.state = { palettes: savedPalettes || seedColors };
     this.savePalette = this.savePalette.bind(this);
     this.findPalette = this.findPalette.bind(this);
+    this.deletePalette = this.deletePalette.bind(this);
   }
   findPalette(id) {
     return this.state.palettes.find(function(palette) {
       return palette.id === id;
     });
+  }
+  deletePalette(id){
+    this.setState(
+      st => ({palettes: st.palettes.filter(palette => palette.id !== id)}),
+      this.syncLocalStorage
+    )
   }
   savePalette(newPalette) {
     this.setState({ palettes: [...this.state.palettes, newPalette]},
@@ -31,6 +38,7 @@ class App extends Component {
   }
   render() {
     return (
+      <HashRouter basename="/">
       <Switch>
         <Route
           exact
@@ -59,7 +67,11 @@ class App extends Component {
           exact
           path='/'
           render={routeProps => (
-            <PaletteList palettes={this.state.palettes} {...routeProps} />
+            <PaletteList 
+              palettes={this.state.palettes} 
+              deletePalette={this.deletePalette}
+              {...routeProps} 
+            />
           )}
         />
         <Route
@@ -74,6 +86,7 @@ class App extends Component {
           )}
         />
       </Switch>
+      </HashRouter>
     );
   }
 }
