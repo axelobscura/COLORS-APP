@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59a337e8c86e8c04d8e8b94535a94088",
+    "revision": "fc780e3a878ad014aa4e58f03705508e",
     "url": "/COLORS-APP/index.html"
   },
   {
-    "revision": "6343af75da14eb3b0fd8",
+    "revision": "d4e4c544faeaced420f9",
     "url": "/COLORS-APP/static/css/2.e337d257.chunk.css"
   },
   {
-    "revision": "f33b0188cdcc5b1a98ca",
+    "revision": "26e46edddae69bdca3cc",
     "url": "/COLORS-APP/static/css/main.c2541e80.chunk.css"
   },
   {
-    "revision": "6343af75da14eb3b0fd8",
-    "url": "/COLORS-APP/static/js/2.b8522c96.chunk.js"
+    "revision": "d4e4c544faeaced420f9",
+    "url": "/COLORS-APP/static/js/2.2ae910c8.chunk.js"
   },
   {
-    "revision": "f33b0188cdcc5b1a98ca",
-    "url": "/COLORS-APP/static/js/main.fba56d99.chunk.js"
+    "revision": "26e46edddae69bdca3cc",
+    "url": "/COLORS-APP/static/js/main.eee62613.chunk.js"
   },
   {
     "revision": "d0889f82b352eb788784",
