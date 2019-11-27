@@ -1,11 +1,14 @@
 import sizes from './Sizes';
+import bg from './bkg.svg';
 export default {
   root: {
     backgroundColor: "blue",
     height: "100vh",
     display: "flex",
     alignItems: "flex-start",
-    justifyContent: "center"
+    justifyContent: "center",
+    backgroundColor: "#ff7700",
+    backgroundImage: `url(${bg})`
   },
   container: {
     width: "50%",
@@ -15,7 +18,6 @@ export default {
     flexWrap: "wrap",
     [sizes.down("xl")]: {
       width: "80%",
-
     }
   },
   nav: {
