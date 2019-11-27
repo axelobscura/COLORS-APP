@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0d863bf16b01d712659cc8271e03735",
+    "revision": "3b50017c2128b2cfac119fda2a982f09",
     "url": "/COLORS-APP/index.html"
   },
   {
-    "revision": "1e072b264a354f36ba6e",
+    "revision": "4d1121c713ec00b8f7d5",
     "url": "/COLORS-APP/static/css/2.e337d257.chunk.css"
   },
   {
-    "revision": "71db840ac28641ec1bd7",
-    "url": "/COLORS-APP/static/css/main.90682c6e.chunk.css"
+    "revision": "616e3d3bdfb0ea2066d8",
+    "url": "/COLORS-APP/static/css/main.f615ef61.chunk.css"
   },
   {
-    "revision": "1e072b264a354f36ba6e",
-    "url": "/COLORS-APP/static/js/2.2b7369e6.chunk.js"
+    "revision": "4d1121c713ec00b8f7d5",
+    "url": "/COLORS-APP/static/js/2.393ca125.chunk.js"
   },
   {
-    "revision": "71db840ac28641ec1bd7",
-    "url": "/COLORS-APP/static/js/main.5f54c973.chunk.js"
+    "revision": "616e3d3bdfb0ea2066d8",
+    "url": "/COLORS-APP/static/js/main.7343e2d9.chunk.js"
   },
   {
     "revision": "d0889f82b352eb788784",
