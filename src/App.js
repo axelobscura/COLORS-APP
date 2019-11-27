@@ -43,7 +43,7 @@ class App extends Component {
       <HashRouter basename="/">
         <Route render={({location}) => (
           <TransitionGroup>
-            <CSSTransition key={location.key} className='page' timeout={500}>
+            <CSSTransition key={location.key} classNames='page' timeout={500}>
               <Switch location={location}>
                 <Route
                   exact
