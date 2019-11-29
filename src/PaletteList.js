@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import MiniPalette from "./MiniPalette";
 import Dialog from '@material-ui/core/Dialog';
 import Avatar from '@material-ui/core/Avatar';
@@ -10,7 +11,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import CloseIcon from '@material-ui/icons/Close';
 import CheckIcon from '@material-ui/icons/Check';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { withStyles } from "@material-ui/styles";
 import blue from "@material-ui/core/colors/blue";
 import red from "@material-ui/core/colors/red";
