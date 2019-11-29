@@ -12,6 +12,7 @@ import Button from "@material-ui/core/Button";
 import DraggableColorList from './DraggableColorList';
 import { arrayMove } from "react-sortable-hoc";
 import styles from './styles/NewPaletteForm';
+import seedColors from './seedColors';
 
 class NewPaletteForm extends Component {
   static defaultProps = {
@@ -23,7 +24,7 @@ class NewPaletteForm extends Component {
       open: false,
       currentColor: 'teal',
       newColorName: '',
-      colors: this.props.palettes[0].colors
+      colors: seedColors[0].colors
     };
     this.updateCurrentColor = this.updateCurrentColor.bind(this);
     this.addNewColor = this.addNewColor.bind(this);
