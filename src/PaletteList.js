@@ -48,8 +48,8 @@ class PaletteList extends Component {
       <div className={classes.root}>
         <div className={classes.container}>
           <nav className={classes.nav}>
-            <h1>React Colors</h1>
-            <Link to="/palette/new">Create Palette</Link>
+            <h1>COLORES REACTIVOS</h1>
+            <Link to="/palette/new">CREAR PALETA</Link>
           </nav>
             <TransitionGroup className={classes.palettes}>
               {palettes.map(palette => (
@@ -75,7 +75,7 @@ class PaletteList extends Component {
           aria-labelledby='delete-dialog-title' 
           onClose={this.closeDialog}
         >
-          <DialogTitle id="delete-dialog-title">Delete this Palette?</DialogTitle>
+          <DialogTitle id="delete-dialog-title">BORRAR PALETA?</DialogTitle>
           <List>
             <ListItem button onClick={this.handleDelete}>
               <ListItemAvatar>
